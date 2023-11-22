@@ -1,0 +1,18 @@
+'''
+name = 'my name is amol'
+print(name.endswith('amol'))
+print(name.endswith('ol'))
+print(name.endswith('l'))
+print(name.endswith('amo'))
+print(name.endswith('al'))
+'''
+# write a program to check the website TLD
+url = input("enter the url:")
+if url.endswith('.com'):
+    print('This is commertial website')
+elif url.endswith('.edu'):
+    print('This is educational website')
+elif url.endswith('.org'):
+    print('This is organisational website')
+
+    
