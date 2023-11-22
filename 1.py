@@ -8,3 +8,8 @@ elif num>1:
         break
     else:
         print(num,'is a prime number')
+
+
+name = input('enter the string:')
+print('This is original string',name)
+print('This is new reversed string',name [::-1])
