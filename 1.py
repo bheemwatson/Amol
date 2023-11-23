@@ -1,5 +1,5 @@
-s = {10,20,20.2,'hello',2+3j}
-print(s)
+n = {10,20,20.2,'hello',2+3j}
+print(n)
 
 s = set([10,20.6,'hello',2+3j])
 print(s)
