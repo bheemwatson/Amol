@@ -1,15 +1,17 @@
-num = int(input("enter a number:"))
-if num == 1:
-    print(num,'is not a prime number')
-elif num>1:
-    for j in range(2,num):
-      if (num%j)==0:
-        print(num," is not a prime number1")
-        break
-    else:
-        print(num,'is a prime number')
+s = {10,20,20.2,'hello',2+3j}
+print(s)
 
+s = set([10,20.6,'hello',2+3j])
+print(s)
 
-name = input('enter the string:')
-print('This is original string',name)
-print('This is new reversed string',name [::-1])
+s.add(500)
+print(s)
+
+a = {101,10,10,20,30,50,20,30}
+print(a)
+
+# a = {101,10,10,20,30,50,20,30,[40,25,85]}
+# print(a)  #type error
+# empty set
+s = set()
+print(type(s))
