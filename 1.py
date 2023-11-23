@@ -1,4 +1,4 @@
-um = int(input("enter a number:"))
+num = int(input("enter a number:"))
 if num == 1:
     print(num,'is not a prime number')
 elif num>1:
