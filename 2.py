@@ -11,3 +11,6 @@ b = {40,60,70,50,80,90}
 print(a&b)
 c = a.intersection(b)
 print(c)
+
+
+#programming is an art
